@@ -18,6 +18,8 @@
 
 ## 👩‍💻 About me
 
+<img align="right" src="assets/photo.jpg" width="190" alt="Amal Souli" />
+
 I'm a **Software Engineer** (ESPRIT, 2025) based in Tunisia. I like building products **end to end**: from the data model and the API to the screen people actually touch.
 
 Today I work at **Bassetti Group** on an enterprise knowledge-management and laboratory (LIMS) platform: an **agentic AI assistant**, **AI-powered document extraction**, a **LIMS ↔ SAP integration** in **C# / .NET**, and platform features in **JavaScript** and Delphi. Before that I shipped mobile apps in **Flutter**, **.NET MAUI** and **Kotlin**, and web platforms in **PHP** and **WordPress**.
