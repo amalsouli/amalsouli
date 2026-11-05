@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://amalsouli.github.io/Portfolio/">
-  <img src="assets/banner.svg" alt="Amal Souli, Software Engineer: mobile and full-stack, .NET, Angular, Flutter" width="100%" />
+  <img src="assets/banner.svg" alt="Amal Souli, Software Engineer: AI, .NET, JavaScript and Angular, Flutter" width="100%" />
 </a>
 
 <br/><br/>
