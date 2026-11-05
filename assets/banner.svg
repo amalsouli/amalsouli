@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-label="Amal Souli, Software Engineer">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e1b4b"/>
+      <stop offset="0.55" stop-color="#4c1d95"/>
+      <stop offset="1" stop-color="#831843"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#f0abfc"/>
+    </linearGradient>
+    <style>
+      .t{font-family:'Segoe UI',Inter,Arial,sans-serif}
+      .orb{animation:float 8s ease-in-out infinite}
+      .orb2{animation:float 10s ease-in-out infinite reverse}
+      .fade{opacity:0;animation:in 1s ease forwards}
+      .d1{animation-delay:.2s}.d2{animation-delay:.6s}.d3{animation-delay:1s}
+      @keyframes float{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+      @keyframes in{to{opacity:1}}
+    </style>
+  </defs>
+  <rect width="1200" height="300" rx="20" fill="url(#bg)"/>
+  <g opacity="0.35">
+    <circle class="orb" cx="1030" cy="80" r="120" fill="#a855f7"/>
+    <circle class="orb2" cx="1120" cy="250" r="90" fill="#ec4899"/>
+  </g>
+  <g fill="none" stroke="#c4b5fd" stroke-opacity="0.25" stroke-width="2">
+    <path d="M60 250h120l30-30h160"/>
+    <path d="M820 40h90l25 25h80"/>
+  </g>
+  <text class="t fade d1" x="70" y="110" font-size="20" fill="#c4b5fd" letter-spacing="4">HELLO, I'M</text>
+  <text class="t fade d2" x="68" y="175" font-size="64" font-weight="700" fill="url(#txt)">Amal Souli</text>
+  <text class="t fade d3" x="70" y="220" font-size="24" fill="#ede9fe">Software Engineer · Mobile &amp; Full-Stack · .NET · Angular · Flutter</text>
+  <g class="t fade d3" font-family="Consolas,monospace" font-size="18" fill="#f0abfc">
+    <text x="820" y="160">&lt;build /&gt; end to end</text>
+    <text x="820" y="190" fill="#c4b5fd">API → data → UI</text>
+  </g>
+</svg>
